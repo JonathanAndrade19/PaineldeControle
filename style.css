@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans&display=swap');
+/* 
+
+font-family: 'Nunito', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+
+*/
+#navbar-site-title{
+    font-family:  'Nunito', sans-serif;
+    font-size: 18px;
+    padding-left:  1.2%;
+}
