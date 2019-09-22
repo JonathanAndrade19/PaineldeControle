@@ -10,11 +10,24 @@
 </head>
 <body>
     
-    <nav class="navbar navbar-expand navbar-light border" >
+    <nav class="navbar navbar-expand-lg navbar-light border" >   
         <a class="navbar-brand" href="#" id="navbar-site-title">Painel</a>
-        <form  class= "form-inline">
-            <input type="text" class="form-control form-field" placeholder="Pesquisar">
-        </form>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#son-navbar-collapse"
+        aria-controls="son-navbar-collapse" aria-expanded="false" aria-label="Exibe toda navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="son-navbar-collapse">
+            <form  class= "form-inline" id="navbar-search-form">
+                <input type="text" class="form-control form-field son-form-field" placeholder="Pesquisar" id="navbar-search-field">
+            </form>
+
+            <div id="navbar-profile" class="ml-auto">
+                <img src="img/noivado-mini.JPG">
+                <span>Jonathan Andrade</span>
+            </div>
+        </div>
     </nav>
 
 
