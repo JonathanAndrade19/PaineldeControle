@@ -10,25 +10,51 @@
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-light border" >   
-        <a class="navbar-brand" href="#" id="navbar-site-title">Painel</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#son-navbar-collapse"
-        aria-controls="son-navbar-collapse" aria-expanded="false" aria-label="Exibe toda navbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="son-navbar-collapse">
-            <form  class= "form-inline" id="navbar-search-form">
-                <input type="text" class="form-control form-field son-form-field" placeholder="Pesquisar" id="navbar-search-field">
-            </form>
-
-            <div id="navbar-profile" class="ml-auto">
-                <img src="img/noivado-mini.JPG">
-                <span>Jonathan Andrade</span>
+    <div class="d-flex" id="wrapper">
+        <!-- SIDEBAR -->
+        <div id="sidebar-wrapper">
+            <div class="sidebar-heading">
+                <span>Painel de Controle</span>
+            </div>
+            <div class="list-group list-group-flush border-right">
+                <a href="#" class="list-group-item list-group-item-action">Inicio</a>
+                <a href="#" class="list-group-item list-group-item-action">Consultoras</a>
+                <a href="#" class="list-group-item list-group-item-action">Relatórios</a>
+                <a href="#" class="list-group-item list-group-item-action">Produtos</a>
+                <a href="#" class="list-group-item list-group-item-action">Promoções</a>
+                
             </div>
         </div>
-    </nav>
+        <!-- CONTEÚDO -->
+        <div id="page-content-wrapper">
+            <nav class="navbar navbar-expand-lg navbar-light" id="son-navbar">   
+                <a class="navbar-brand" href="#" id="navbar-site-title">Painel</a>
+        
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#son-navbar-collapse"
+                        aria-controls="son-navbar-collapse" aria-expanded="false" aria-label="Exibe toda navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="son-navbar-collapse">
+                    <form  class= "form-inline" id="navbar-search-form">
+                        <input type="text" class="form-control form-field son-form-field" placeholder="Pesquisar" id="navbar-search-field">
+                    </form>
+        
+                    <div id="navbar-profile" class="ml-auto">
+                        <img src="img/noivado-mini.JPG">
+                        <span>Jonathan Andrade</span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+
+
+
+
+   
 
 
 

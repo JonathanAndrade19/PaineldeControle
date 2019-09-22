@@ -5,6 +5,10 @@ font-family: 'Nunito', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
 
 */
+body{
+    background: #eff1f4ff;
+}
+
 #navbar-site-title{
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
@@ -39,8 +43,14 @@ font-family: 'Nunito Sans', sans-serif;
     border-radius: 50%;
     width: 10%;
 }
+
 #navbar-profile span{
     padding-left: 4%;
     color: #262d37ff;
     font-family: 'Nunito', sans-serif;    
+}
+
+#son-navbar{
+    background-color: white;
+    box-shadow: 8px 6px 6px rgba(164,164,164,0.5);
 }
