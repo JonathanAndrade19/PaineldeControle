@@ -4,58 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Painel de Controle</title>
+    <title>Painel - School of net</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
 </head>
 <body>
-    
     <div class="d-flex" id="wrapper">
-        <!-- SIDEBAR -->
+        <!-- SIDEBAR-->
         <div id="sidebar-wrapper">
-            <div class="sidebar-heading">
-                <img src="img/logo.png">
-                <span>Painel de Controle</span>
-            </div>
+            <div class="sidebar-heading"><img src="img/logo.png"><span>Painel da SON</span></div>
             <div class="list-group list-group-flush border-right">
-                <a href="#" class="list-group-item list-group-item-action">Inicio</a>
-                <a href="#" class="list-group-item list-group-item-action">Consultoras</a>
-                <a href="#" class="list-group-item list-group-item-action">Relatórios</a>
-                <a href="#" class="list-group-item list-group-item-action">Produtos</a>
-                <a href="#" class="list-group-item list-group-item-action">Promoções</a>
-                
-            </div>
+                <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-home"></i>Inicio</a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-users"></i>Funcionários</a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-box-open"></i>Produtos</a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-sitemap"></i>Categorias</a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-people-carry"></i>Fornecedores</a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="far fa-chart-bar"></i>Relatórios</a>
+            </div>   
         </div>
         <!-- CONTEÚDO -->
         <div id="page-content-wrapper">
-            <nav class="navbar navbar-expand-lg navbar-light" id="son-navbar">   
+            <nav class="navbar navbar-expand-lg navbar-light" id="son-navbar">
                 <span id="menu-toggle" class="mr-auto"><img src="img/logo.png" class="mx-auto d-block"></span>
-                <a class="navbar-brand" href="#" id="navbar-site-title">Painel</a>
-        
+                <a  class="navbar-brand" href="#" id="navbar-site-title">Painel</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#son-navbar-collapse"
-                        aria-controls="son-navbar-collapse" aria-expanded="false" aria-label="Exibe toda navbar">
+                    aria-controls="son-navbar-collapse" aria-expanded="false" aria-label="Exibe toda navbar">
                     <span class="navbar-toggler-icon"></span>
-                </button>
-        
+                </button>   
                 <div class="collapse navbar-collapse" id="son-navbar-collapse">
-                    <form  class= "form-inline" id="navbar-search-form">
-                        <input type="text" class="form-control form-field son-form-field" placeholder="Pesquisar" id="navbar-search-field">
-                    </form>
-        
-                    <div id="navbar-profile" class="ml-auto">
-                        <img src="img/noivado-mini.JPG">
-                        <span>Jonathan Andrade</span>
-                    </div>
+                        <form class="form-inline" id="navbar-search-form">
+                                <input type="text" class="form-control form-field son-form-field" placeholder="Pesquisar" id="navbar-search-field">
+                        </form>
+                    
+                        <div id="navbar-profile" class="ml-auto">
+                                <img src="img/foto-perfil.jpg" alt="" srcset="">
+                                <span>Jonathan Andrade</span>
+                        </div>
                 </div>
             </nav>
+            <div id="content" class="container">
+               <!-- Formulário -->
+                <h3 id="main-page-form-title">Novo Artigo</h3> 
+                <div class="son-form">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="">Autor</label>
+                            <input type="text" class="form-field son-form-field form-control" id="user-field">
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
-
-    <!-- Script -->
+    <!-- SCRIPTS-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-
-    <!-- Js do Bootstrap -->
+    <!-- JS do Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
     <script>
         $("#menu-toggle").click(function(event) {
@@ -64,4 +69,5 @@
         });
     </script>
 </body>
+>>>>>>> b64fa2bc6223bc24913bc2be8fb36dda41cd339e
 </html>
