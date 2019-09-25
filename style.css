@@ -148,3 +148,71 @@ body{
 #menu-toggle img{
     width: 30px;
 }
+/* ------ Componentes----- */
+
+#content{
+    margin-top: 50px;
+}
+
+.son-main-text-3{
+    font-family: 'Nunito', sans-serif;
+    color: #262d37ff;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.son-form{
+    border-radius: 10px;
+    box-shadow: 0px 6px 6px rgba(164, 164, 164, 0.3)
+}
+.son-form-body{
+    padding: 2%;
+}
+.confirm-btns{
+    background-color: #f5f7faff;
+}
+.confirm-btns button{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 12px;
+    background-color: #5898d9ff;
+    border: none;
+}
+.confirm-btns button:hover{
+    background-color: #005ab4;
+}
+.form-group label{
+    font-size: 17px;
+    color: #a3a8aeff;
+}
+.table{
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(164, 164, 164, 0.3);
+}
+.table thead{
+    background-color: #f7f6fb;
+}
+.table-col-title{
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    color: #78797d;
+
+}
+.table tbody{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #78797d;
+}
+.table-title{
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+.table-title input{
+    width: 30%;
+}
+#vendas-h3{
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
