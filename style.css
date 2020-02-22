@@ -176,11 +176,11 @@ body{
     padding-left: 2%;
     padding-right: 2%;
     border-radius: 12px;
-    background-color: #5898d9ff;
+    background-color: rgb(0, 212, 53);
     border: none;
 }
 .confirm-btns button:hover{
-    background-color: #005ab4;
+    background-color: rgb(0, 212, 53;
 }
 .form-group label{
     font-size: 17px;

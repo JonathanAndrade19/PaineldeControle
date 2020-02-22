@@ -1,23 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Painel - School of net</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
-</head>
+   <?php include("header.php"); ?>
 <body>
     <div class="d-flex" id="wrapper">
         <!-- SIDEBAR-->
         <div id="sidebar-wrapper">
-            <div class="sidebar-heading"><img src="img/logo.png"><span>Painel da SON</span></div>
+            <div class="sidebar-heading"><img src="img/logo_heyJessy.png"><span>Painel de Vendas</span></div>
             <div class="list-group list-group-flush border-right">
-                <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-home"></i>Inicio</a>
+                <a href="index.php" class="list-group-item list-group-item-action"><i class="fas fa-home"></i>Inicio</a>
                 <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-users"></i>Funcionários</a>
-                <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-box-open"></i>Produtos</a>
+                <a href="cadastrar_produto.php" class="list-group-item list-group-item-action"><i class="fas fa-box-open"></i>Produtos</a>
                 <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-sitemap"></i>Categorias</a>
                 <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-people-carry"></i>Fornecedores</a>
                 <a href="#" class="list-group-item list-group-item-action"><i class="far fa-chart-bar"></i>Relatórios</a>
@@ -26,7 +18,7 @@
         <!-- CONTEÚDO -->
         <div id="page-content-wrapper">
             <nav class="navbar navbar-expand-lg navbar-light" id="son-navbar">
-                <span id="menu-toggle" class="mr-auto"><img src="img/logo.png" class="mx-auto d-block"></span>
+                <span id="menu-toggle" class="mr-auto"><img src="img/logo_heyJessy.png" class="mx-auto d-block"></span>
                 <a  class="navbar-brand" href="#" id="navbar-site-title">Painel</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#son-navbar-collapse"
                     aria-controls="son-navbar-collapse" aria-expanded="false" aria-label="Exibe toda navbar">
@@ -86,40 +78,6 @@
 
                     </tbody>
                 </table>
-
-                <!-- Formulário -->
-                <h3 id="main-page-form-title" class="son-main-text-3">Novo Artigo</h3> 
-                <div>
-                    <form class="card son-form">
-                        <div class="card-body son-form-body">
-                            <div class="form-group">
-                                <label for="">Autor</label>
-                                <input type="text" class="form-field son-form-field form-control" id="user-field" placeholder="Autor">
-                                <hr>
-                            </div>
-                            <div class="form-group">
-                                <label for="">Título</label>
-                                <input type="text" class="form-field son-form-field form-control" id="title-field" placeholder="Título">
-                                <hr>
-                            </div>
-                            <div class="form-group">
-                                <label for="">Menssagem</label>
-                                <textarea name="msn" id="body-field" class="form-field son-form-field form-control" placeholder="Escreva um pouco sobre você."></textarea>
-                                <hr>
-                            </div>
-                            <div>
-                                <label for="">Data</label>
-                                <input type="date" class="form-field son-form-field form-control" id="date-filed">
-                            </div>
-                        </div>
-                        
-                        <div class="confirm-btns card-footer">
-                            <button class="btn btn-primary">Criar e adicionar outro</button>
-                            <button class="btn btn-primary">Puclicar post</button>
-                        </div>
-                    </form>
-                </div>
-
                 <h3 id="vendas-h3">Vendas</h3>
 
                 <div class="card">
